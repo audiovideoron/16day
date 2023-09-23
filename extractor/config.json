@@ -1,0 +1,15 @@
+{
+  "exclude_function_room": ["Unassigned"],
+  "exclude_event_type": ["Lunch"],
+  "include_event_type": ["Meeting", "Breakout/Syndicate", "Setup", "General Session/Congress"],
+  "leads": {
+    "Josiah": "123-456-7890",
+    "Dana": "987-654-3210",
+    "Phoenix": "111-222-3333"
+  },
+  "hands": {
+    "Joe Sullivan": "444-555-6666",
+    "Logan": "777-888-9999",
+    "Lisa": "000-111-2222"
+  }
+}
