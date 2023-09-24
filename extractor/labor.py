@@ -73,7 +73,7 @@ if __name__ == "__main__":
     
     events_calendar = None
     for folder in root_folder.Folders:
-        if folder.Name == 'Events':
+        if folder.Name == 'Definite':
             events_calendar = folder
             break
 

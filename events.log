@@ -2104,3 +2104,2190 @@ INFO:root:Successfully removed event: MIA Safety Services
 INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
 INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
 INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Utah State University
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Successfully added event: MultiPlan
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Successfully added event: CEM Corporation
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Successfully added event: GBTA-North Central
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Successfully added event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Successfully added event: MarsCon
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Successfully added event: Electrolux North America
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Devenish Nutrition
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Jackson Hewitt
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Successfully added event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Ostara
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Successfully added event: MIA Safety Services
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Successfully added event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+ERROR:root:Excel file ./16Day.xlsx not found!
+INFO:root:Starting main application.
+ERROR:root:Excel file ./16Day.xlsx not found!
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Successfully added event: Electrolux North America
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Ostara
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Utah State University
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Successfully added event: MultiPlan
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Successfully added event: CEM Corporation
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Successfully added event: GBTA-North Central
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Successfully added event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Successfully added event: MarsCon
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Successfully added event: Electrolux North America
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Devenish Nutrition
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Jackson Hewitt
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Successfully added event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Ostara
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Successfully added event: MIA Safety Services
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Successfully added event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Utah State University
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Successfully added event: MultiPlan
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Successfully added event: CEM Corporation
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Successfully added event: GBTA-North Central
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Successfully added event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Successfully added event: MarsCon
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Devenish Nutrition
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Jackson Hewitt
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Successfully added event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Successfully added event: MIA Safety Services
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Successfully added event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Utah State University
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Successfully added event: MultiPlan
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Successfully added event: CEM Corporation
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Successfully added event: GBTA-North Central
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Successfully added event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Successfully added event: MarsCon
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Devenish Nutrition
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Jackson Hewitt
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Successfully added event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Successfully added event: MIA Safety Services
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Successfully added event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Utah State University
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Successfully added event: MultiPlan
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Successfully added event: CEM Corporation
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Successfully added event: GBTA-North Central
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Successfully added event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Successfully added event: MarsCon
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Devenish Nutrition
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Jackson Hewitt
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Successfully added event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Successfully added event: MIA Safety Services
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Successfully added event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Event already exists in a calendar. Skipping.
+INFO:root:Starting main application.
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+ERROR:root:Invalid action choice.
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Removing events from calendars.
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Life Surge
+INFO:root:Applying restriction: [Subject] = 'Life Surge'
+INFO:root:Successfully removed event: Life Surge
+INFO:root:Trying to remove event: Utah State University
+INFO:root:Applying restriction: [Subject] = 'Utah State University'
+INFO:root:Successfully removed event: Utah State University
+INFO:root:Trying to remove event: MultiPlan
+INFO:root:Applying restriction: [Subject] = 'MultiPlan'
+INFO:root:Successfully removed event: MultiPlan
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: Council of Chief State School Officers (CCSSO)
+INFO:root:Applying restriction: [Subject] = 'Council of Chief State School Officers (CCSSO)'
+INFO:root:Successfully removed event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to remove event: CEM Corporation
+INFO:root:Applying restriction: [Subject] = 'CEM Corporation'
+INFO:root:Successfully removed event: CEM Corporation
+INFO:root:Trying to remove event: GBTA-North Central
+INFO:root:Applying restriction: [Subject] = 'GBTA-North Central'
+INFO:root:Successfully removed event: GBTA-North Central
+INFO:root:Trying to remove event: Minnesotans' Military Appreciation Fund
+INFO:root:Applying restriction: [Subject] = 'Minnesotans'' Military Appreciation Fund'
+INFO:root:Successfully removed event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to remove event: MarsCon
+INFO:root:Applying restriction: [Subject] = 'MarsCon'
+INFO:root:Successfully removed event: MarsCon
+INFO:root:Trying to remove event: Electrolux North America
+INFO:root:Applying restriction: [Subject] = 'Electrolux North America'
+INFO:root:Successfully removed event: Electrolux North America
+INFO:root:Trying to remove event: Devenish Nutrition
+INFO:root:Applying restriction: [Subject] = 'Devenish Nutrition'
+INFO:root:Successfully removed event: Devenish Nutrition
+INFO:root:Trying to remove event: Jackson Hewitt
+INFO:root:Applying restriction: [Subject] = 'Jackson Hewitt'
+INFO:root:Successfully removed event: Jackson Hewitt
+INFO:root:Trying to remove event: State Farm Mutual Automobile Insurance Company
+INFO:root:Applying restriction: [Subject] = 'State Farm Mutual Automobile Insurance Company'
+INFO:root:Successfully removed event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: Minnesota Dental Association
+INFO:root:Applying restriction: [Subject] = 'Minnesota Dental Association'
+INFO:root:Successfully removed event: Minnesota Dental Association
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: The Bob Pike Group
+INFO:root:Applying restriction: [Subject] = 'The Bob Pike Group'
+INFO:root:Successfully removed event: The Bob Pike Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Ostara
+INFO:root:Applying restriction: [Subject] = 'Ostara'
+INFO:root:Successfully removed event: Ostara
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Katie Carder
+INFO:root:Applying restriction: [Subject] = 'Katie Carder'
+INFO:root:Successfully removed event: Katie Carder
+INFO:root:Trying to remove event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Prestige on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Flynn Restaurant Group
+INFO:root:Applying restriction: [Subject] = 'Flynn Restaurant Group'
+INFO:root:Successfully removed event: Flynn Restaurant Group
+INFO:root:Trying to remove event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Applying restriction: [Subject] = 'Maritz on behalf of Medtronic, Inc.'
+INFO:root:Successfully removed event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: Center of Addiction and Faith
+INFO:root:Applying restriction: [Subject] = 'Center of Addiction and Faith'
+INFO:root:Successfully removed event: Center of Addiction and Faith
+INFO:root:Trying to remove event: Genesis Attachments
+INFO:root:Applying restriction: [Subject] = 'Genesis Attachments'
+INFO:root:Successfully removed event: Genesis Attachments
+INFO:root:Trying to remove event: MIA Safety Services
+INFO:root:Applying restriction: [Subject] = 'MIA Safety Services'
+INFO:root:Successfully removed event: MIA Safety Services
+INFO:root:Trying to remove event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Applying restriction: [Subject] = 'Shoptikal LLC d.b.a Shopko Optical'
+INFO:root:Successfully removed event: Shoptikal LLC d.b.a Shopko Optical
+INFO:root:Starting main application.
+INFO:root:Applying filters.
+INFO:root:Adding events to calendars.
+INFO:root:Trying to add event: Life Surge on 2023-09-08 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Life Surge on 2023-09-09 00:00:00
+INFO:root:Successfully added event: Life Surge
+INFO:root:Trying to add event: Utah State University on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Utah State University
+INFO:root:Trying to add event: MultiPlan on 2023-09-12 00:00:00
+INFO:root:Successfully added event: MultiPlan
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-12 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: Council of Chief State School Officers (CCSSO) on 2023-09-13 00:00:00
+INFO:root:Successfully added event: Council of Chief State School Officers (CCSSO)
+INFO:root:Trying to add event: CEM Corporation on 2023-09-14 00:00:00
+INFO:root:Successfully added event: CEM Corporation
+INFO:root:Trying to add event: GBTA-North Central on 2023-09-14 00:00:00
+INFO:root:Successfully added event: GBTA-North Central
+INFO:root:Trying to add event: Minnesotans' Military Appreciation Fund on 2023-09-15 00:00:00
+INFO:root:Successfully added event: Minnesotans' Military Appreciation Fund
+INFO:root:Trying to add event: MarsCon on 2023-09-17 00:00:00
+INFO:root:Successfully added event: MarsCon
+INFO:root:Trying to add event: Electrolux North America on 2023-09-18 00:00:00
+INFO:root:Successfully added event: Electrolux North America
+INFO:root:Trying to add event: Devenish Nutrition on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Devenish Nutrition
+INFO:root:Trying to add event: Jackson Hewitt on 2023-09-19 00:00:00
+INFO:root:Successfully added event: Jackson Hewitt
+INFO:root:Trying to add event: State Farm Mutual Automobile Insurance Company on 2023-09-21 00:00:00
+INFO:root:Successfully added event: State Farm Mutual Automobile Insurance Company
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-21 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: Minnesota Dental Association on 2023-09-22 00:00:00
+INFO:root:Successfully added event: Minnesota Dental Association
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-24 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-25 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-26 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-27 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-28 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: The Bob Pike Group on 2023-09-29 00:00:00
+INFO:root:Successfully added event: The Bob Pike Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-02 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Ostara on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Ostara
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-03 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Katie Carder on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Katie Carder
+INFO:root:Trying to add event: Prestige on behalf of Medtronic, Inc. on 2023-10-04 00:00:00
+INFO:root:Successfully added event: Prestige on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Flynn Restaurant Group on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Flynn Restaurant Group
+INFO:root:Trying to add event: Maritz on behalf of Medtronic, Inc. on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Maritz on behalf of Medtronic, Inc.
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-05 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: Center of Addiction and Faith on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Center of Addiction and Faith
+INFO:root:Trying to add event: Genesis Attachments on 2023-10-06 00:00:00
+INFO:root:Successfully added event: Genesis Attachments
+INFO:root:Trying to add event: MIA Safety Services on 2023-10-07 00:00:00
+INFO:root:Successfully added event: MIA Safety Services
+INFO:root:Trying to add event: Shoptikal LLC d.b.a Shopko Optical on 2023-10-07 00:00:00
+INFO:root:Successfully added event: Shoptikal LLC d.b.a Shopko Optical
