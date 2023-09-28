@@ -1,7 +1,39 @@
 {
-  "exclude_function_room": ["Unassigned"],
-  "exclude_event_type": ["Lunch"],
-  "include_event_type": ["Meeting", "Breakout/Syndicate", "Setup", "General Session/Congress"],
+  "exclude_function_room": [
+    "Unassigned",
+    "Meadows",
+    "Mezzanine",
+    "Presidential Suite 1200",
+    "Built - In Registration",
+    "Balcony East & West",
+    "Staircase",
+    "Waterwall",
+    "Lobby",
+    "III-IV MN Valley Ballroom Foyer",
+    "Storage",
+    "Office"
+  ],
+  "exclude_event_type": [
+    "Lunch",
+    "Lunch Buffet",
+    "Storage",
+    "Registration",
+    "Break PM",
+    "Break AM",
+    "Break",
+    "Room Hold",
+    "Hospitality",
+    "Breakfast",
+    "Reception Drinks",
+    "Continental Breakfast",
+    "Activities/Recreation"
+  ],
+  "include_event_type": [
+    "Meeting",
+    "Breakout/Syndicate",
+    "Setup",
+    "General Session/Congress"
+  ],
   "leads": {
     "Josiah": "123-456-7890",
     "Dana": "987-654-3210",

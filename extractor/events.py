@@ -3,25 +3,27 @@ import json
 import pandas as pd
 import win32com.client
 import logging
-import pywintypes
+#import pywintypes
 from calendar_operations import add_to_calendar, remove_from_calendar
 
 # Configure the logging system
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s %(levelname)s: %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S')
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s %(levelname)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
 
 
 def load_config():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(script_dir, 'config.json')
-    with open(config_path, 'r') as f:
+    config_path = os.path.join(script_dir, "config.json")
+    with open(config_path, "r") as f:
         return json.load(f)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     logging.info("Starting main application.")
-    
+
     try:
         config = load_config()
     except FileNotFoundError as e:
@@ -31,7 +33,7 @@ if __name__ == '__main__':
         logging.error("Error decoding JSON config!")
         exit(1)
 
-    xlsx_file = config.get('excel_file', './16DaySept.xlsx')
+    xlsx_file = config.get("excel_file", "./16DaySept.xlsx")
     try:
         df = pd.read_excel(xlsx_file)
     except FileNotFoundError as e:
@@ -46,9 +48,9 @@ if __name__ == '__main__':
     logging.debug(f"DataFrame Head: {df.head()}")
 
     logging.info("Applying filters.")
-    df = df[~df['Function Room'].isin(config['exclude_function_room'])]
-    df = df[~df['Event Type'].isin(config['exclude_event_type'])]
-    df = df[df['Event Type'].isin(config['include_event_type'])]
+    df = df[~df["Function Room"].isin(config["exclude_function_room"])]
+    df = df[~df["Event Type"].isin(config["exclude_event_type"])]
+    df = df[df["Event Type"].isin(config["include_event_type"])]
 
     # Log DataFrame details after filters
     logging.debug(f"Shape of the DataFrame after filters: {df.shape}")
@@ -61,19 +63,23 @@ if __name__ == '__main__':
     # Initialize the specific calendars
     calendars = {}
     for folder in root_folder.Folders:
-        if folder.Name in ['Definite', 'Tentative', 'Prospect']:
+        if folder.Name in ["Definite", "Tentative", "Prospect"]:
             calendars[folder.Name] = folder
 
     if not calendars:
         logging.error("Could not find required calendars.")
         exit(1)
 
-    action = input("Would you like to 'Add' or 'Remove' events? (Enter 'Add' or 'Remove'): ").strip().lower()
+    action = (
+        input("Would you like to 'Add' or 'Remove' events? (Enter 'Add' or 'Remove'): ")
+        .strip()
+        .lower()
+    )
 
-    if action == 'add':
+    if action == "add":
         logging.info("Adding events to calendars.")
         add_to_calendar(df, calendars)
-    elif action == 'remove':
+    elif action == "remove":
         logging.info("Removing events from calendars.")
         remove_from_calendar(df, calendars, outlook)
     else:

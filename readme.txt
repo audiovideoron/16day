@@ -19,11 +19,11 @@ Course of Development
 5. Bring Job Tracker to BEO meetings
 
 State of Development
-1. is usable. Haven't found the correct solution for Start/End, will try again.
+1. usable, but Start/End isn't infallible
 2. has been started and development will begin focusing on it
 3. not required for first release
 4. not required for first release
-5. The Struggle is reduced
+5. close
 6. Inspire needs to buy Salesforce License for every site
 7. Inspire needs to buy license for twilio
 
