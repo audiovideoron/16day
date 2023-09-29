@@ -29,3 +29,16 @@ State of Development
 
 Notes:
 4. requires python to ChaptGPT API calls and needs to be paid for by Inspire.
+
+Early Version
+
+SMS
+The body of the calendar entry must follow this format. Any deviation breaks the interface.
+
+date_range: 2023-09-11 – 2023-09-13
+1 lead; Josiah, Dana, Phoenix
+1 hand; Joe Sullivan, Logan, Lisa
+
+date_range: 2023-09-11
+1 lead; Josiah, Dana
+1 hand; Logan, Lisa

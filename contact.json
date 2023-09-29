@@ -1,0 +1,12 @@
+[
+    {
+        "first_name": "Ron",
+        "last_name": "Parker",
+        "phone": "(612) 432-5527",
+        "position": [
+            "a1",
+            "v1"
+        ],
+        "weight": 1
+    }
+]
