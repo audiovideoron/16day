@@ -42,3 +42,6 @@ date_range: 2023-09-11 – 2023-09-13
 date_range: 2023-09-11
 1 lead; Josiah, Dana
 1 hand; Logan, Lisa
+
+TODO
+1. Design updates for contacts

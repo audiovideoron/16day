@@ -1,0 +1,11 @@
+{
+  "calendar_name": "Definite",
+  "positions": [
+    "Lead",
+    "Hand"
+  ],
+  "hourly_rates": {
+    "Lead": 40,
+    "Hand": 40
+  }
+}

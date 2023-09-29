@@ -86,15 +86,63 @@ def save_to_json(contacts, filename='contact.json'):
     with open(filename, 'w') as json_file:
         json.dump(contacts, json_file, indent=4)
 
+import argparse
+import json
+import re
+
+# ... (rest of the script remains the same)
+
+import argparse
+import json
+import re
+
+# ... (rest of the script remains the same)
+
+import argparse
+import json
+import re
+
+# ... (rest of the script remains the same)
+
 def main():
-    parser = argparse.ArgumentParser(description='Gather contact information and save it to contact.json.')
+    parser = argparse.ArgumentParser(description='Gather contact information and append it to contact.json.')
     args = parser.parse_args()
 
-    contacts = gather_contact_info()
+    # Load existing contacts from contact.json, if it exists
+    try:
+        with open('contact.json', 'r') as json_file:
+            existing_contacts = json.load(json_file)
+    except FileNotFoundError:
+        existing_contacts = []
 
-    if len(contacts) > 0:
-        save_to_json(contacts)
-        print(f"{len(contacts)} contact(s) saved to contact.json")
+    new_contacts = gather_contact_info()
+
+    if len(new_contacts) > 0:
+        # Create a list to store contacts to be added (excluding duplicates)
+        contacts_to_add = []
+
+        for new_contact in new_contacts:
+            # Check if the new contact already exists based on first and last name
+            is_duplicate = any(
+                new_contact['first_name'] == existing_contact['first_name'] and
+                new_contact['last_name'] == existing_contact['last_name']
+                for existing_contact in existing_contacts
+            )
+
+            if not is_duplicate:
+                contacts_to_add.append(new_contact)
+
+        if contacts_to_add:
+            # Append the new contacts to the existing ones
+            all_contacts = existing_contacts + contacts_to_add
+
+            # Save all contacts to contact.json
+            save_to_json(all_contacts, 'contact.json')
+            print(f"{len(contacts_to_add)} contact(s) added to contact.json")
+        else:
+            print("No new contacts to add.")
+    else:
+        print("No new contacts to add.")
 
 if __name__ == '__main__':
     main()

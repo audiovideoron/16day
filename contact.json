@@ -1,11 +1,35 @@
 [
     {
+        "first_name": "Dana",
+        "last_name": "Bailey",
+        "phone": "(612) 298-6292",
+        "position": [
+            "a1",
+            "v1",
+            "crew_chief"
+        ],
+        "weight": 1
+    },
+    {
         "first_name": "Ron",
         "last_name": "Parker",
         "phone": "(612) 432-5527",
         "position": [
             "a1",
-            "v1"
+            "v1",
+            "crew_chief"
+        ],
+        "weight": 1
+    },
+    {
+        "first_name": "Josiah",
+        "last_name": "Somers",
+        "phone": "(612) 559-3395",
+        "position": [
+            "a1",
+            "v1",
+            "l1",
+            "crew_chief"
         ],
         "weight": 1
     }
