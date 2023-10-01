@@ -14,6 +14,7 @@ logging.basicConfig(
 
 def load_config():
     script_dir = os.path.dirname(os.path.abspath(__file__))
+    script_dir = os.path.dirname(__file__)
     config_path = os.path.join(script_dir, "config.json")
     with open(config_path, "r") as f:
         return json.load(f)

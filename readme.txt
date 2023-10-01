@@ -7,17 +7,18 @@ West Region DETs to solicit a second user, feedback and feature requests.
 Course of Development
 1. Add events to Outlook calendar
     A. Event Start, Event End
-2. Book labor
+
+2. Schedule labor
     Script asks, 
     event_date = "What date?"
-    event_set = "What day are you setting?"
     event_name = "What is the event name?" (pick from list)
-    position = "What position are you looking for?"
+    event_set = "What day are you setting?"
+    positions = "What positions are you looking for?" (choose one or more)
     total_weight = :
     * a1 = 1
     * v1 = 1
     * l1 = 1
-    * shift_flexibility = 1
+    * flexible = 1
     * det_preference = 2
     * client_relations = 1
     * reschedules = -1
@@ -32,7 +33,7 @@ Course of Development
                 twilio Are you date start, end time?
 
 
-    Priority weight; if v1 and priority 1 message
+    Priority weight; if v1 and greater weight then message
     before v1 priority 2.
 
     A. Twilio to automate labor messaging
