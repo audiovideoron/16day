@@ -2,7 +2,7 @@ import os
 import json
 import win32com.client
 from datetime import datetime
-import sys  # Don't forget to import sys for exit()
+import sys
 
 
 def load_labor_config():
@@ -19,6 +19,7 @@ def load_labor_config():
         print("Error decoding JSON from labor config file. Exiting.")
         sys.exit(1)  # Exit with an error code
 
+
 def load_config():
     try:
         script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -33,11 +34,13 @@ def load_config():
         print("Error decoding JSON from config file. Exiting.")
         sys.exit(1)  # Exit with an error code
 
+
 if __name__ == "__main__":
     config = load_config()
     labor_config = load_labor_config()
 
     calendar_name = labor_config.get("calendar_name", "Definite")
+
 
 def list_events_by_date(events_calendar, event_date):
     date_start = f"{event_date} 12:00 AM"

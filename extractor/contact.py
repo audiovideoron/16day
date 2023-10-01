@@ -69,13 +69,23 @@ def gather_contact_info():
             else:
                 print("Invalid weight rating. Please enter 1, 2, or 3.")
 
-        # Create the contact dictionary with the positions list
+        # Get the rate
+        while True:
+            rate = input("Enter rate: ")
+            try:
+                rate = float(rate)  # Convert the input to a float
+                break
+            except ValueError:
+                print("Invalid rate. Please enter a valid numeric rate.")
+
+        # Create the contact dictionary with the positions list, weight, and rate
         contact = {
             'first_name': first_name,
             'last_name': last_name,
             'phone': phone,
             'position': contact_positions,  # Add the positions to the contact
-            'weight': int(weight)
+            'weight': int(weight),
+            'rate': rate  # Add the rate to the contact
         }
 
         contacts.append(contact)
@@ -85,24 +95,6 @@ def gather_contact_info():
 def save_to_json(contacts, filename='contact.json'):
     with open(filename, 'w') as json_file:
         json.dump(contacts, json_file, indent=4)
-
-import argparse
-import json
-import re
-
-# ... (rest of the script remains the same)
-
-import argparse
-import json
-import re
-
-# ... (rest of the script remains the same)
-
-import argparse
-import json
-import re
-
-# ... (rest of the script remains the same)
 
 def main():
     parser = argparse.ArgumentParser(description='Gather contact information and append it to contact.json.')

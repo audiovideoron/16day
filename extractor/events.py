@@ -3,8 +3,7 @@ import json
 import pandas as pd
 import win32com.client
 import logging
-#import pywintypes
-from calendar_operations import add_to_calendar, remove_from_calendar
+from calendar_operations import add_to_calendar_with_earliest_start_end, remove_from_calendar
 
 # Configure the logging system
 logging.basicConfig(
@@ -13,13 +12,11 @@ logging.basicConfig(
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 
-
 def load_config():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(script_dir, "config.json")
     with open(config_path, "r") as f:
         return json.load(f)
-
 
 if __name__ == "__main__":
     logging.info("Starting main application.")
@@ -39,6 +36,7 @@ if __name__ == "__main__":
     except FileNotFoundError as e:
         logging.error(f"Excel file {xlsx_file} not found!")
         exit(1)
+
     # Log DataFrame details
     logging.debug(f"Shape of the DataFrame before filters: {df.shape}")
     logging.debug(f"Data types in the DataFrame before filters: {df.dtypes}")
@@ -78,7 +76,7 @@ if __name__ == "__main__":
 
     if action == "add":
         logging.info("Adding events to calendars.")
-        add_to_calendar(df, calendars)
+        add_to_calendar_with_earliest_start_end(df, calendars)
     elif action == "remove":
         logging.info("Removing events from calendars.")
         remove_from_calendar(df, calendars, outlook)

@@ -7,11 +7,34 @@ West Region DETs to solicit a second user, feedback and feature requests.
 Course of Development
 1. Add events to Outlook calendar
     A. Event Start, Event End
-2. Book labor for events
-    Use config files to store contacts and track event bookings. If 
-    person isn't booked put them in the call list. Assign skillset 
-    and priority weight to each person; if v1 and priority 1 message
+2. Book labor
+    Script asks, 
+    event_date = "What date?"
+    event_set = "What day are you setting?"
+    event_name = "What is the event name?" (pick from list)
+    position = "What position are you looking for?"
+    total_weight = :
+    * a1 = 1
+    * v1 = 1
+    * l1 = 1
+    * shift_flexibility = 1
+    * det_preference = 2
+    * client_relations = 1
+    * reschedules = -1
+    * no_show = -2
+    * engaged = -1
+    if v1 
+    prospect = v1.labor.config && highest weight available
+    for prospects
+        if contact not booked on event (read calendar)
+            event_candidate[] = prospect (build a list)
+            for event_candidate
+                twilio Are you date start, end time?
+
+
+    Priority weight; if v1 and priority 1 message
     before v1 priority 2.
+
     A. Twilio to automate labor messaging
     B. Start/End times are subject to change
 3. Generate folders under documents/2023/current_month/client_name

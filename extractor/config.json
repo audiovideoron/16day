@@ -26,13 +26,13 @@
     "Breakfast",
     "Reception Drinks",
     "Continental Breakfast",
-    "Activities/Recreation"
+    "Activities/Recreation",
+    "Exhibition/Trade Show"
   ],
   "include_event_type": [
+    "General Session/Congress",
     "Meeting",
-    "Breakout/Syndicate",
-    "Setup",
-    "General Session/Congress"
+    "Breakout/Syndicate"
   ],
   "leads": {
     "Josiah": "123-456-7890",
