@@ -1,22 +1,5 @@
 [
     {
-        "first_name": "Ron",
-        "last_name": "Parker",
-        "phone": "(612) 432-5527",
-        "position": [
-            "a1",
-            "v1",
-            "l2",
-            "crew_chief"
-        ],
-        "weight": 11,
-        "rate": 50.0,
-        "reliable": true,
-        "flexible": true,
-        "client_relations": true,
-        "preferred": true
-    },
-    {
         "first_name": "Dana",
         "last_name": "Bailey",
         "phone": "(612) 298-6392",
@@ -62,6 +45,54 @@
         ],
         "weight": 9,
         "rate": 40.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
+    },
+    {
+        "first_name": "Lisa",
+        "last_name": "Rebeck",
+        "phone": "(952) 239-7770",
+        "position": [
+            "hand"
+        ],
+        "weight": 5,
+        "rate": 40.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
+    },
+    {
+        "first_name": "Mike",
+        "last_name": "Fishel",
+        "phone": "(612) 670-1779",
+        "position": [
+            "a2",
+            "v2",
+            "l2",
+            "hand"
+        ],
+        "weight": 8,
+        "rate": 40.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
+    },
+    {
+        "first_name": "Ron",
+        "last_name": "Parker",
+        "phone": "6124325527",
+        "position": [
+            "a1",
+            "v1",
+            "l1",
+            "crew_chief"
+        ],
+        "weight": 12,
+        "rate": 50.0,
         "reliable": true,
         "flexible": true,
         "client_relations": true,
