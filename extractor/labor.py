@@ -1,136 +1,225 @@
-import os
 import json
+import datetime
 import win32com.client
-from datetime import datetime
-import sys
+import pytz
+from win32com.client import Dispatch
+from twilio.rest import Client
+
+# Constants
+LABOR_JSON_PATH = "labor.json"
+AVAILABILITY_JSON_PATH = "availability.json"
+LABOR_COST_PER_HOUR = 110
+
+# Initialize Twilio client (Make sure to replace with your own credentials)
+TWILIO_ACCOUNT_SID = "YOUR_ACCOUNT_SID"
+TWILIO_AUTH_TOKEN = "YOUR_AUTH_TOKEN"
+twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+
+# Helper Functions
 
 
-def load_labor_config():
-    try:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        labor_config_path = os.path.join(script_dir, "labor.json")
+def get_definite_calendar():
+    outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
+    calendar_folder = outlook.GetDefaultFolder(9)  # 9 refers to the calendar folder
 
-        with open(labor_config_path, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        print("Labor config file not found. Exiting.")
-        sys.exit(1)  # Exit with an error code
-    except json.JSONDecodeError:
-        print("Error decoding JSON from labor config file. Exiting.")
-        sys.exit(1)  # Exit with an error code
+    # Check if the main Calendar is named "Definite"
+    if calendar_folder.Name == "Definite":
+        return calendar_folder
 
+    # Otherwise, loop through subfolders to find "Definite"
+    for subfolder in calendar_folder.Folders:
+        if subfolder.Name == "Definite":
+            return subfolder
 
-def load_config():
-    try:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        config_path = os.path.join(script_dir, "config.json")
-
-        with open(config_path, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        print("Config file not found. Exiting.")
-        sys.exit(1)  # Exit with an error code
-    except json.JSONDecodeError:
-        print("Error decoding JSON from config file. Exiting.")
-        sys.exit(1)  # Exit with an error code
+    return None  # If "Definite" calendar is not found
 
 
-if __name__ == "__main__":
-    config = load_config()
-    labor_config = load_labor_config()
-
-    calendar_name = labor_config.get("calendar_name", "Definite")
-
-
-def list_events_by_date(events_calendar, event_date):
-    date_start = f"{event_date} 12:00 AM"
-    date_end = f"{event_date} 11:59 PM"
-
-    restriction = f"[Start] >= '{date_start}' AND [Start] <= '{date_end}'"
-
-    appointments = events_calendar.Items
-    appointments.Sort("[Start]")
-    appointments = appointments.Restrict(restriction)
-
-    events = []
-    for idx, appointment in enumerate(appointments):
-        print(f"{idx + 1}. {appointment.Subject} - {appointment.Start}")
-        events.append(appointment)
-
-    return events
+definite_calendar = get_definite_calendar()
+if definite_calendar:
+    print("Definite calendar found!")
+else:
+    print("Definite calendar not found!")
 
 
-def generate_messages(selected_event, config):
-    event_body = selected_event.Body
-    print(f"Event body: {event_body}")
+def get_date_from_user():
+    while True:
+        date_str = input(
+            "Which date are you scheduling labor for? (format: YYYY-MM-DD): "
+        )
+        try:
+            return datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
+        except ValueError:
+            print("Invalid date format. Please try again.")
 
-    # Split the event body into lines and remove any trailing carriage returns
-    notes = event_body.split("\n")
-    notes = [note.rstrip("\r") for note in notes]
-    print(f"Notes: {notes}")
 
-    # Extract date_range from the first line of notes
-    try:
-        date_range = notes[0].split(":")[1].strip()
-    except IndexError:
-        print("Date range not found in notes.")
+def get_outlook_events_for_date(target_date):
+    """Fetches events from the 'Definite' Outlook calendar for the given date."""
+    calendar = get_definite_calendar()
+    if not calendar:
+        print("Unable to access the 'Definite' calendar in Outlook.")
+        return []
+
+    # Convert target_date to the 'America/Chicago' timezone and get the start and end times
+    local_tz = pytz.timezone("America/Chicago")
+    start_time_local = local_tz.localize(
+        datetime.datetime(target_date.year, target_date.month, target_date.day, 0, 0, 0)
+    )
+    end_time_local = local_tz.localize(
+        datetime.datetime(
+            target_date.year, target_date.month, target_date.day, 23, 59, 59
+        )
+    )
+
+    # Convert start and end times to UTC
+    start_time_utc = start_time_local.astimezone(pytz.UTC)
+    end_time_utc = end_time_local.astimezone(pytz.UTC)
+
+    # Manually filter events
+    events_on_date = []
+    for event in calendar.Items:
+        if event.Start <= end_time_utc and event.End >= start_time_utc:
+            events_on_date.append(event)
+
+    return events_on_date
+
+
+def filter_and_rank_workers(skillset=None):
+    with open(LABOR_JSON_PATH, "r") as file:
+        workers = json.load(file)
+    # Assuming each worker has a 'weight' key and an optional 'skillset' key.
+    if skillset:
+        workers = [w for w in workers if w["skillset"] == skillset]
+    return sorted(workers, key=lambda x: x["weight"], reverse=True)
+
+
+def send_sms_notification(worker, message):
+    twilio_client.messages.create(
+        body=message,
+        from_="+1234567890",  # Your Twilio number
+        to=worker["phone_number"],
+    )
+
+
+# Primary Logic Functions
+def select_event_for_date(target_date):
+    events = get_outlook_events_for_date(target_date)
+
+    if not events:
+        print(f"No events found for {target_date}.")
+        return None
+
+    print("\nEvents for the selected date:")
+    for idx, event in enumerate(events, 1):
+        print(f"{idx}. {event.Subject} ({event.Start} - {event.End})")
+
+    while True:
+        choice = input(f"Select an event (1-{len(events)}): ")
+        if choice.isdigit() and 1 <= int(choice) <= len(events):
+            return events[int(choice) - 1]
+        else:
+            print("Invalid choice. Please select a valid event number.")
+
+
+def get_labor_times_for_days(days):
+    labor_schedule = {}
+    
+    for day in days:
+        print(f"\nFor {day.strftime('%Y-%m-%d')}:")
+
+        # Get the start time
+        start_time = input("What is the start time for the labor shift? (format: HH:MM AM/PM): ")
+        
+        # Convert the input into a datetime object
+        start_datetime = datetime.strptime(f"{day.strftime('%Y-%m-%d')} {start_time}", '%Y-%m-%d %I:%M %p')
+        
+        # Get the end time
+        end_time = input("What is the end time for the labor shift? (format: HH:MM AM/PM): ")
+
+        # Convert the input into a datetime object
+        end_datetime = datetime.strptime(f"{day.strftime('%Y-%m-%d')} {end_time}", '%Y-%m-%d %I:%M %p')
+
+        labor_schedule[day] = {
+            "start_time": start_datetime,
+            "end_time": end_datetime
+        }
+
+    return labor_schedule
+
+
+def schedule_labor_for_event(event):
+    # Extract the event details
+    event_name = event.Subject
+    event_start_date = event.Start.date()
+    event_end_date = event.End.date()
+
+    # Prompt user for the labor scheduling window
+    print(
+        f"\nThe actual event '{event_name}' starts on {event_start_date} and ends on {event_end_date}."
+    )
+    labor_start_date_input = input(
+        "When do you want to start scheduling labor? (format: YYYY-MM-DD): "
+    )
+    labor_end_date_input = input(
+        "Until when do you want to schedule labor? (format: YYYY-MM-DD): "
+    )
+
+    # Convert inputs to dates
+    labor_start_date = datetime.datetime.strptime(
+        labor_start_date_input, "%Y-%m-%d"
+    ).date()
+    labor_end_date = datetime.datetime.strptime(labor_end_date_input, "%Y-%m-%d").date()
+
+    # List the available dates for labor scheduling
+    delta = labor_end_date - labor_start_date
+    available_dates = [
+        labor_start_date + datetime.timedelta(days=i) for i in range(delta.days + 1)
+    ]
+
+    print(f"\nFor the event '{event_name}', on which specific days do you need labor?")
+    for index, date in enumerate(available_dates, 1):
+        # Indicate if the date is outside the event window
+        indication = ""
+        if date < event_start_date or date > event_end_date:
+            indication = "(Outside event window)"
+
+        print(f"{index}. {date.strftime('%Y-%m-%d')} {indication}")
+
+    # Here, you can continue with additional steps, e.g., labor time selection, position selection, etc.
+
+
+def main():
+    # Fetch the 'Definite' calendar
+    calendar = get_definite_calendar()
+    if not calendar:
+        print("Unable to access the 'Definite' calendar in Outlook.")
         return
 
-    # Extract lead and hand information from notes
-    leads_info = notes[1].split(";")[1].strip().split(",")
-    hands_info = notes[2].split(";")[1].strip().split(",")
-    leads = [lead.strip() for lead in leads_info]
-    hands = [hand.strip() for hand in hands_info]
+    # Ask the user for the target date
+    target_date_str = input(
+        "Which date are you scheduling labor for? (format: YYYY-MM-DD): "
+    )
+    target_date = datetime.datetime.strptime(target_date_str, "%Y-%m-%d")
 
-    print(f"Leads: {leads}")
-    print(f"Hands: {hands}")
+    # Fetch and display events from the calendar for that date
+    events = get_outlook_events_for_date(target_date)
+    if not events:
+        print(f"No events found for {target_date_str}.")
+        return
 
-    # Generate and print messages for leads
-    for lead in leads:
-        lead_name = config["leads"].get(
-            lead, lead
-        )  # Use the config name if available, otherwise use the original name
-        msg = f"{lead_name}, are you available {date_range}?"
-        print(msg)
+    # Display the events and let the user choose one
+    print("\nEvents for the selected date:")
+    for idx, event in enumerate(events, 1):
+        start = event.Start.astimezone(pytz.timezone("America/Chicago"))
+        end = event.End.astimezone(pytz.timezone("America/Chicago"))
+        print(f"{idx}. {event.Subject} ({start} - {end})")
 
-    # Generate and print messages for hands
-    for hand in hands:
-        hand_name = config["hands"].get(
-            hand, hand
-        )  # Use the config name if available, otherwise use the original name
-        msg = f"{hand_name}, are you available {date_range}?"
-        print(msg)
+    # User specifies which event they're interested in
+    event_choice = int(input("Which event are you scheduling labor for? "))
+    selected_event = events[event_choice - 1]
+
+    # Schedule labor for the chosen event
+    schedule_labor_for_event(selected_event)
 
 
 if __name__ == "__main__":
-    config = load_config()
-
-    outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
-    root_folder = outlook.GetDefaultFolder(9)  # 9 refers to the calendar folder
-
-    events_calendar = None
-    for folder in root_folder.Folders:
-        if folder.Name == "Definite":
-            events_calendar = folder
-            break
-
-    if events_calendar:
-        event_date = input("Enter the event date (YYYY-MM-DD): ")
-        try:
-            datetime.strptime(event_date, "%Y-%m-%d")  # Validate date format
-            events = list_events_by_date(events_calendar, event_date)
-
-            if events:
-                choice = int(input("Select an event by entering its number: "))
-                selected_event = events[choice - 1]  # Retrieve selected event
-                print(f"You selected {selected_event.Subject}")
-
-                generate_messages(selected_event, config)
-
-            else:
-                print("No events found for the given date.")
-
-        except ValueError:
-            print("Invalid date format. Please use YYYY-MM-DD.")
-    else:
-        print("Could not find 'Events' calendar.")
+    main()

@@ -33,5 +33,15 @@
     "General Session/Congress",
     "Meeting",
     "Breakout/Syndicate"
-  ]
+  ],
+  "leads": {
+    "Josiah": "123-456-7890",
+    "Dana": "987-654-3210",
+    "Phoenix": "111-222-3333"
+  },
+  "hands": {
+    "Joe Sullivan": "444-555-6666",
+    "Logan": "777-888-9999",
+    "Lisa": "000-111-2222"
+  }
 }
