@@ -104,14 +104,20 @@ def get_labor_times_for_day(day):
     end_time_str = input("What is the end time for the labor shift? (format: HH:MM AM/PM): ")
 
     # Convert the time strings to datetime.time objects
-    start_time = datetime.strptime(start_time_str, '%I:%M %p').time()
-    end_time = datetime.strptime(end_time_str, '%I:%M %p').time()
+    start_time_dt = datetime.strptime(start_time_str, '%I:%M %p') - timedelta(hours=5)
+    end_time_dt = datetime.strptime(end_time_str, '%I:%M %p') - timedelta(hours=5)
+
+    # Use .time() to extract only the time component
+    start_time = start_time_dt.time()
+    end_time = end_time_dt.time()
 
     # Combine day (which is a date) with start_time and end_time to create timezone-aware datetime objects
     start_datetime = local_tz.localize(datetime.combine(day, start_time))
     end_datetime = local_tz.localize(datetime.combine(day, end_time))
 
     return start_datetime, end_datetime
+
+
 
 def schedule_labor_for_event(selected_event):
     # Displaying selected event details
