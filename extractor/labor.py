@@ -3,18 +3,23 @@ import pytz
 from win32com.client import Dispatch
 from twilio.rest import Client
 from datetime import datetime, timedelta
-from calendar_ops import get_calendar_by_name, create_calendar_event, get_definite_calendar, get_outlook_events_for_date, get_labor_calendar
-from labor_ops import gather_labor_requirements, schedule_labor_for_event, generate_labor_event_details, get_labor_positions_and_counts, get_labor_times_for_days, generate_labor_days_list, select_labor_days, get_labor_times_for_day
-
-# Constants
-
-# Initialize Twilio client (Make sure to replace with your own credentials)
-
-# Helper Functions
-
-# Later in the `schedule_labor_for_event` function, after getting the labor times:
-
-# Primary Logic Functions
+from calendar_ops import (
+    get_calendar_by_name,
+    create_calendar_event,
+    get_definite_calendar,
+    get_outlook_events_for_date,
+    get_labor_calendar,
+)
+from labor_ops import (
+    gather_labor_requirements,
+    schedule_labor_for_event,
+    generate_labor_event_details,
+    get_labor_positions_and_counts,
+    get_labor_times_for_days,
+    generate_labor_days_list,
+    select_labor_days,
+    get_labor_times_for_day,
+)
 
 def main():
     labor_calendar = get_labor_calendar()
@@ -40,20 +45,24 @@ def main():
         print(f"No events found for {target_date_str}.")
         return
 
-    # Display the events and let the user choose one
-    print("\nEvents for the selected date:")
-    for idx, event in enumerate(events, 1):
-        start = event.Start.astimezone(pytz.timezone("America/Chicago"))
-        end = event.End.astimezone(pytz.timezone("America/Chicago"))
-        print(f"{idx}. {event.Subject} ({start} - {end})")
+    if len(events) == 1:
+        print(f"\nThe only event on {target_date_str} is '{events[0].Subject}'.")
+        selected_event = events[0]
+    else:
+        # Display the events and let the user choose one
+        print("\nAvailable events on " + target_date_str + ":")
+        for idx, event in enumerate(events, 1):
+            # Use date() method on the datetime object to display only the date
+            start_date = event.Start.astimezone(pytz.timezone("America/Chicago")).date()
+            end_date = event.End.astimezone(pytz.timezone("America/Chicago")).date()
+            print(f"{idx}. {event.Subject} ({start_date} - {end_date})")
 
-    # User specifies which event they're interested in
-    event_choice = int(input("Which event are you scheduling labor for? "))
-    selected_event = events[event_choice - 1]
+        # User specifies which event they're interested in
+        event_choice = int(input("Which event are you scheduling labor for? "))
+        selected_event = events[event_choice - 1]
 
     # Schedule labor for the chosen event
     schedule_labor_for_event(selected_event)
-
 
 if __name__ == "__main__":
     main()

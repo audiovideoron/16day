@@ -2,8 +2,8 @@ import pytz
 import datetime
 from datetime import datetime
 import win32com.client
+from win32com.client import Dispatch
 
-print("calendar_ops module loaded")
 
 # Get the labor calendar
 def get_labor_calendar():
@@ -21,14 +21,14 @@ def get_calendar_by_name(calendar_name):
     return calendar
 
 def create_calendar_event(calendar, subject, start, end, body=""):
-    appointment = calendar.Items.Add(1)  # 1 represents olAppointmentItem
+    # Create the appointment directly in the specified calendar
+    appointment = calendar.Items.Add(1)  # 1 signifies an appointment
     appointment.Subject = subject
+    appointment.Body = body
     appointment.Start = start
     appointment.End = end
-    appointment.Body = body
     appointment.Save()
 
-    return appointment
 
 def get_definite_calendar():
     outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
