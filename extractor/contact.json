@@ -97,5 +97,20 @@
         "flexible": true,
         "client_relations": true,
         "preferred": true
+    },
+    {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "phone": "800-555-1212",
+        "position": [
+            "a1",
+            "v1"
+        ],
+        "weight": 6,
+        "rate": 50.0,
+        "reliable": true,
+        "flexible": false,
+        "client_relations": true,
+        "preferred": false
     }
 ]

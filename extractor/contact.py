@@ -1,5 +1,6 @@
 import json
 import re
+import os
 from json.decoder import JSONDecodeError
 
 # Constants
@@ -115,22 +116,38 @@ def gather_contact_info():
         contacts.append(contact)
     return contacts
 
-def save_to_json(contacts, filename="contact.json"):
+def save_to_json(contacts, filename=None):
+    # Determine the directory of the current script
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    
+    # If a filename is provided, use it. Otherwise, default to "contact.json" in the current script's directory
+    if filename is None:
+        filename = os.path.join(script_dir, "contact.json")
+
     with open(filename, "w") as json_file:
         json.dump(contacts, json_file, indent=4)
 
+
 def main():
-    try:
-        with open("contact.json", "r") as json_file:
+    # Step 1: Load the existing contacts
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    filename = os.path.join(script_dir, "contact.json")
+    
+    if os.path.exists(filename):
+        with open(filename, "r") as json_file:
             existing_contacts = json.load(json_file)
-    except (FileNotFoundError, JSONDecodeError):
+    else:
         existing_contacts = []
 
+    # Gather new contacts
     new_contacts = gather_contact_info()
 
     if new_contacts:
+        # Step 2: Append new contacts to existing contacts
         all_contacts = existing_contacts + new_contacts
-        save_to_json(all_contacts)
+        
+        # Step 3: Save the combined list back to contact.json
+        save_to_json(all_contacts, filename)
         print(f"{len(new_contacts)} new contact(s) added.")
     else:
         print("No new contacts entered.")

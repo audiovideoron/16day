@@ -183,7 +183,7 @@ def schedule_labor_for_event(selected_event):
 
     for day, details in labor_schedule.items():
         # Construct the event_body for each day
-        event_body = "Chosen Available labor positions:\n"
+        event_body = "Available labor positions:\n"
         for position, count in details["positions"].items():
             event_body += f"{position}: {count}\n"
 
