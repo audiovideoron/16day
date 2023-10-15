@@ -1,7 +1,8 @@
 import json
 import re
 import os
-from json.decoder import JSONDecodeError
+#from gpt4_helper import query_gpt4
+from gpt4_helper import handle_api_query 
 
 # Constants
 PATTERN_PHONE = r"^\(\d{3}\) \d{3}-\d{4}$"
@@ -26,25 +27,39 @@ POSITION_WEIGHTS = {
     "hand": 1,
 }
 
-def is_valid_phone_number(phone):
-    patterns = [
-        r"^\(\d{3}\) \d{3}-\d{4}$",  # (XXX) XXX-XXXX
-        r"^\d{3}-\d{3}-\d{4}$",      # XXX-XXX-XXXX
-        r"^\d{10}$",                 # XXXXXXXXXX
-        # Add more patterns as needed
-    ]
 
-    return any(re.match(pattern, phone) for pattern in patterns)
+def is_valid_phone_number(phone):
+    return re.match(PATTERN_PHONE, phone) is not None
+
 
 def get_yes_no_input(prompt):
-    return input(prompt).strip().lower() == 'y'
+    return input(prompt).strip().lower() == "y"
 
-def calculate_weight(contact_positions, reliable, flexible, client_relations, preferred):
+
+def calculate_weight(
+    contact_positions, reliable, flexible, client_relations, preferred
+):
     weight = sum(POSITION_WEIGHTS[pos] for pos in contact_positions)
     weight += reliable + flexible + client_relations + preferred
     return weight
 
-def gather_contact_info():
+
+def generate_unique_id(existing_contacts):
+    highest_id = (
+        max(int(contact["id"]) for contact in existing_contacts)
+        if existing_contacts
+        else 0
+    )
+    return str(highest_id + 1)
+
+
+def get_position_key(position_name):
+    for key, value in POSITIONS.items():
+        if value.lower() == position_name.lower():
+            return key
+    return None
+
+def gather_contact_info(existing_contacts):
     contacts = []
     available_positions = POSITIONS.copy()
     
@@ -61,24 +76,30 @@ def gather_contact_info():
                 break
             print("Invalid phone number format. Please use the format (XXX) XXX-XXXX.")
 
-        contact_positions = []
+        position_choices = []
         while True:
             if not available_positions:
                 print("No more positions available.")
                 break
+
             print("Choose position(s) from the following list (enter 'done' to finish).")
             for pos, desc in available_positions.items():
                 print(f"{pos}: {desc}")
 
-            position_input = input("Enter one or multiple positions separated by commas: ").strip().replace(" ", "")
-            if position_input == 'done':
+            position_input = input("Enter one or multiple positions separated by commas: ").strip()
+            if position_input.lower() == 'done':
                 break
-            selected_positions = position_input.split(',')
-            valid_positions = all(pos in available_positions for pos in selected_positions)
-            if valid_positions:
-                contact_positions.extend(selected_positions)
-                for pos in selected_positions:
+            
+            position_choices_raw = [x.strip() for x in position_input.split(',')]
+            position_choices = [get_position_key(pos) for pos in position_choices_raw]
+
+            # Filter out None values if the position is not found
+            position_choices = [pos for pos in position_choices if pos]
+
+            if position_choices:
+                for pos in position_choices:
                     del available_positions[pos]
+                break
             else:
                 print("Invalid position(s). Please choose from the list.")
 
@@ -87,8 +108,8 @@ def gather_contact_info():
         has_client_relations = get_yes_no_input(f"Does {first_name} have good rapport with the client? (y/n): ")
         is_preferred = get_yes_no_input(f"Do you prefer {first_name}? (y/n): ")
 
-        weight = calculate_weight(contact_positions, is_reliable, is_flexible, has_client_relations, is_preferred)
-
+        weight = calculate_weight(position_choices, is_reliable, is_flexible, has_client_relations, is_preferred)
+        
         rate = 0.0
         while True:
             rate_input = input("Enter rate: ")
@@ -100,12 +121,13 @@ def gather_contact_info():
                     break
             except ValueError:
                 print("Invalid rate. Please enter a numeric rate.")
-
+        
         contact = {
+            'id': generate_unique_id(existing_contacts),
             'first_name': first_name,
             'last_name': last_name,
             'phone': phone,
-            'position': contact_positions,
+            'position': position_choices,
             'weight': weight,
             'rate': rate,
             'reliable': is_reliable,
@@ -113,44 +135,42 @@ def gather_contact_info():
             'client_relations': has_client_relations,
             'preferred': is_preferred
         }
+
         contacts.append(contact)
     return contacts
 
-def save_to_json(contacts, filename=None):
-    # Determine the directory of the current script
-    script_dir = os.path.dirname(os.path.realpath(__file__))
-    
-    # If a filename is provided, use it. Otherwise, default to "contact.json" in the current script's directory
-    if filename is None:
-        filename = os.path.join(script_dir, "contact.json")
+
+def save_to_json(contacts):
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    filename = os.path.join(current_directory, "contacts.json")
 
     with open(filename, "w") as json_file:
         json.dump(contacts, json_file, indent=4)
 
-
 def main():
-    # Step 1: Load the existing contacts
-    script_dir = os.path.dirname(os.path.realpath(__file__))
-    filename = os.path.join(script_dir, "contact.json")
-    
-    if os.path.exists(filename):
-        with open(filename, "r") as json_file:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    filename = os.path.join(current_directory, "contacts.json")
+
+    if os.path.exists("contacts.json"):
+        with open("contacts.json", "r") as json_file:
             existing_contacts = json.load(json_file)
     else:
         existing_contacts = []
 
-    # Gather new contacts
-    new_contacts = gather_contact_info()
+    new_contacts = gather_contact_info(existing_contacts)
 
     if new_contacts:
-        # Step 2: Append new contacts to existing contacts
         all_contacts = existing_contacts + new_contacts
-        
-        # Step 3: Save the combined list back to contact.json
-        save_to_json(all_contacts, filename)
+        save_to_json(all_contacts)
         print(f"{len(new_contacts)} new contact(s) added.")
     else:
         print("No new contacts entered.")
 
+    print("About to open API query handler...")
+    handle_api_query()
+    print("Exited API query handler.")
+
+
+# Your main code
 if __name__ == "__main__":
     main()

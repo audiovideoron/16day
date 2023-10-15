@@ -1,0 +1,15 @@
+[
+    {
+        "id": "1",
+        "first_name": "Joeseph",
+        "last_name": "Doe",
+        "phone": "(800) 555-1212",
+        "position": [],
+        "weight": 3,
+        "rate": 55.0,
+        "reliable": true,
+        "flexible": false,
+        "client_relations": true,
+        "preferred": true
+    }
+]

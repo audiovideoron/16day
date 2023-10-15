@@ -31,7 +31,7 @@ if __name__ == "__main__":
         logging.error("Error decoding JSON config!")
         exit(1)
 
-    xlsx_file = config.get("excel_file", "./16DaySept.xlsx")
+    xlsx_file = config.get("excel_file", "./16DayOct.xlsx")
     try:
         df = pd.read_excel(xlsx_file)
     except FileNotFoundError as e:
