@@ -1,7 +1,6 @@
 import json
 import re
 import os
-#from gpt4_helper import query_gpt4
 from gpt4_helper import handle_api_query 
 
 # Constants
@@ -29,7 +28,9 @@ POSITION_WEIGHTS = {
 
 
 def is_valid_phone_number(phone):
+    PATTERN_PHONE = r'\+?(\d\s?){0,14}'
     return re.match(PATTERN_PHONE, phone) is not None
+
 
 
 def get_yes_no_input(prompt):
@@ -166,9 +167,9 @@ def main():
     else:
         print("No new contacts entered.")
 
-    print("About to open API query handler...")
-    handle_api_query()
-    print("Exited API query handler.")
+#    print("About to open API query handler...")
+#    handle_api_query()
+#    print("Exited API query handler.")
 
 
 # Your main code
