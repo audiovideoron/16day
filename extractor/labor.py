@@ -21,6 +21,7 @@ from labor_ops import (
     get_labor_times_for_day,
 )
 
+
 def main():
     labor_calendar = get_labor_calendar()
     if not labor_calendar:
@@ -63,6 +64,7 @@ def main():
 
     # Schedule labor for the chosen event
     schedule_labor_for_event(selected_event)
+
 
 if __name__ == "__main__":
     main()

@@ -1,15 +1,41 @@
 [
     {
         "id": "1",
-        "first_name": "Joeseph",
-        "last_name": "Doe",
-        "phone": "(800) 555-1212",
+        "first_name": "dana",
+        "last_name": "bailey",
+        "phone": "5555555555",
         "position": [],
-        "weight": 3,
+        "weight": 4,
         "rate": 55.0,
         "reliable": true,
-        "flexible": false,
+        "flexible": true,
         "client_relations": true,
         "preferred": true
+    },
+    {
+        "id": "2",
+        "first_name": "Ron",
+        "last_name": "John",
+        "phone": "5555555555",
+        "position": [],
+        "weight": 4,
+        "rate": 55.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
+    },
+    {
+        "id": "3",
+        "first_name": "douche",
+        "last_name": "bag",
+        "phone": "4444444444",
+        "position": [],
+        "weight": 0,
+        "rate": 66.0,
+        "reliable": false,
+        "flexible": false,
+        "client_relations": false,
+        "preferred": false
     }
 ]

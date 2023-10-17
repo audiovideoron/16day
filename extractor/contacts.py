@@ -152,8 +152,8 @@ def main():
     current_directory = os.path.dirname(os.path.abspath(__file__))
     filename = os.path.join(current_directory, "contacts.json")
 
-    if os.path.exists("contacts.json"):
-        with open("contacts.json", "r") as json_file:
+    if os.path.exists(filename):
+        with open(filename, "r") as json_file:
             existing_contacts = json.load(json_file)
     else:
         existing_contacts = []
@@ -166,10 +166,6 @@ def main():
         print(f"{len(new_contacts)} new contact(s) added.")
     else:
         print("No new contacts entered.")
-
-#    print("About to open API query handler...")
-#    handle_api_query()
-#    print("Exited API query handler.")
 
 
 # Your main code

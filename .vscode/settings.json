@@ -1,3 +1,7 @@
 {
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "CodeGPT.model": "gpt-4",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "CodeGPT.temperature": 0.1,
+    "CodeGPT.organizationId": "org-sclVv2GVKu3507P3xUfVff2s"
 }
