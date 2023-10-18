@@ -66,5 +66,22 @@
         "flexible": true,
         "client_relations": true,
         "preferred": true
+    },
+    {
+        "id": "6",
+        "first_name": "Notey",
+        "last_name": "noter",
+        "email": "noter@notey.com",
+        "notes": "should be worthy",
+        "phone": "8005551212",
+        "position": [
+            "hand"
+        ],
+        "weight": 5,
+        "rate": 66.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
     }
 ]

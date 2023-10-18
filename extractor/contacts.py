@@ -69,6 +69,7 @@ def gather_contact_info(existing_contacts):
             break
         last_name = input("Enter last name: ")
         email = input("Enter email: ") 
+        notes = input("Enter notes (optional): ") 
 
         phone = ""
         while True:
@@ -140,6 +141,7 @@ def gather_contact_info(existing_contacts):
             "first_name": first_name,
             "last_name": last_name,
             'email': email, 
+            'notes': notes, 
             "phone": phone,
             "position": position_choices,
             "weight": weight,
