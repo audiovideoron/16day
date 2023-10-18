@@ -26,29 +26,45 @@ def generate_labor_event_details():
 
 
 def get_labor_positions_and_counts():
-    # Predefined list of labor positions
     labor_positions = ["Technician", "Audio Engineer", "Stage Manager", "Other"]
-
     selected_positions = {}
+
     print("\nAvailable labor positions:")
     for index, position in enumerate(labor_positions, 1):
         print(f"{index}. {position}")
 
-    positions_input = input(
-        "Select the positions you need (comma separated, e.g. 1,2,3 or type 'Other'): "
-    ).split(",")
+    while True:
+        positions_input = input(
+            "Select the positions you need (comma separated, e.g. 1,2,3,4): "
+        ).split(",")
+
+        if all(pos.strip().isdigit() for pos in positions_input):
+            break
+        else:
+            print("Invalid input. Please enter numbers corresponding to the positions.")
 
     for pos in positions_input:
-        if pos.strip().isdigit():
-            index = int(pos.strip()) - 1
-            if 0 <= index < len(labor_positions):
-                position_name = labor_positions[index]
-                if position_name == "Other":
-                    position_name = input("Please specify the labor position: ").strip()
-                count = int(input(f"How many {position_name}s do you need? "))
-                selected_positions[position_name] = count
+        pos = pos.strip()
+        index = int(pos) - 1
+
+        if 0 <= index < len(labor_positions):
+            position_name = labor_positions[index]
+
+            if position_name == "Other":
+                position_name = input("Please specify the labor position: ").strip()
+
+            while True:
+                count_input = input(f"How many {position_name}s do you need? ")
+                if count_input.isdigit() and int(count_input) >= 0:
+                    selected_positions[position_name] = int(count_input)
+                    break
+                else:
+                    print("Invalid count. Please enter a non-negative integer.")
+        else:
+            print(f"Invalid index {index + 1}. Skipping.")
 
     return selected_positions
+
 
 
 def get_labor_times_for_days(days):
