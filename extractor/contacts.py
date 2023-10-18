@@ -68,6 +68,7 @@ def gather_contact_info(existing_contacts):
         if first_name.lower() == "q":
             break
         last_name = input("Enter last name: ")
+        email = input("Enter email: ") 
 
         phone = ""
         while True:
@@ -138,6 +139,7 @@ def gather_contact_info(existing_contacts):
             "id": generate_unique_id(existing_contacts),
             "first_name": first_name,
             "last_name": last_name,
+            'email': email, 
             "phone": phone,
             "position": position_choices,
             "weight": weight,

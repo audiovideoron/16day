@@ -50,5 +50,21 @@
         "flexible": true,
         "client_relations": true,
         "preferred": true
+    },
+    {
+        "id": "5",
+        "first_name": "Sled",
+        "last_name": "Jed",
+        "email": "sled@jed.com",
+        "phone": "8005551212",
+        "position": [
+            "hand"
+        ],
+        "weight": 5,
+        "rate": 66.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
     }
 ]
