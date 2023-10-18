@@ -37,5 +37,18 @@
         "flexible": false,
         "client_relations": false,
         "preferred": false
+    },
+    {
+        "id": "4",
+        "first_name": "Bob",
+        "last_name": "Slob",
+        "phone": "8005551212",
+        "position": [],
+        "weight": 4,
+        "rate": 55.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
     }
 ]

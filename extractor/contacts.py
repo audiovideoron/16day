@@ -1,10 +1,9 @@
 import json
 import re
 import os
-from gpt4_helper import handle_api_query 
+from gpt4_helper import handle_api_query
 
 # Constants
-PATTERN_PHONE = r"^\(\d{3}\) \d{3}-\d{4}$"
 POSITIONS = {
     "a1": "Audio Level 1",
     "a2": "Audio Level 2",
@@ -28,9 +27,8 @@ POSITION_WEIGHTS = {
 
 
 def is_valid_phone_number(phone):
-    PATTERN_PHONE = r'\+?(\d\s?){0,14}'
+    PATTERN_PHONE = r"\+?(\d\s?){0,14}"
     return re.match(PATTERN_PHONE, phone) is not None
-
 
 
 def get_yes_no_input(prompt):
@@ -60,17 +58,18 @@ def get_position_key(position_name):
             return key
     return None
 
+
 def gather_contact_info(existing_contacts):
     contacts = []
     available_positions = POSITIONS.copy()
-    
+
     while True:
         first_name = input("Enter first name (or 'q' to quit): ")
-        if first_name.lower() == 'q':
+        if first_name.lower() == "q":
             break
         last_name = input("Enter last name: ")
 
-        phone = ''
+        phone = ""
         while True:
             phone = input("Enter phone number (in the format (XXX) XXX-XXXX): ")
             if is_valid_phone_number(phone):
@@ -83,15 +82,19 @@ def gather_contact_info(existing_contacts):
                 print("No more positions available.")
                 break
 
-            print("Choose position(s) from the following list (enter 'done' to finish).")
+            print(
+                "Choose position(s) from the following list (enter 'done' to finish)."
+            )
             for pos, desc in available_positions.items():
                 print(f"{pos}: {desc}")
 
-            position_input = input("Enter one or multiple positions separated by commas: ").strip()
-            if position_input.lower() == 'done':
+            position_input = input(
+                "Enter one or multiple positions separated by commas: "
+            ).strip()
+            if position_input.lower() == "done":
                 break
-            
-            position_choices_raw = [x.strip() for x in position_input.split(',')]
+
+            position_choices_raw = [x.strip() for x in position_input.split(",")]
             position_choices = [get_position_key(pos) for pos in position_choices_raw]
 
             # Filter out None values if the position is not found
@@ -106,11 +109,19 @@ def gather_contact_info(existing_contacts):
 
         is_reliable = get_yes_no_input(f"Is {first_name} reliable? (y/n): ")
         is_flexible = get_yes_no_input(f"Is {first_name} flexible? (y/n): ")
-        has_client_relations = get_yes_no_input(f"Does {first_name} have good rapport with the client? (y/n): ")
+        has_client_relations = get_yes_no_input(
+            f"Does {first_name} have good rapport with the client? (y/n): "
+        )
         is_preferred = get_yes_no_input(f"Do you prefer {first_name}? (y/n): ")
 
-        weight = calculate_weight(position_choices, is_reliable, is_flexible, has_client_relations, is_preferred)
-        
+        weight = calculate_weight(
+            position_choices,
+            is_reliable,
+            is_flexible,
+            has_client_relations,
+            is_preferred,
+        )
+
         rate = 0.0
         while True:
             rate_input = input("Enter rate: ")
@@ -122,19 +133,19 @@ def gather_contact_info(existing_contacts):
                     break
             except ValueError:
                 print("Invalid rate. Please enter a numeric rate.")
-        
+
         contact = {
-            'id': generate_unique_id(existing_contacts),
-            'first_name': first_name,
-            'last_name': last_name,
-            'phone': phone,
-            'position': position_choices,
-            'weight': weight,
-            'rate': rate,
-            'reliable': is_reliable,
-            'flexible': is_flexible,
-            'client_relations': has_client_relations,
-            'preferred': is_preferred
+            "id": generate_unique_id(existing_contacts),
+            "first_name": first_name,
+            "last_name": last_name,
+            "phone": phone,
+            "position": position_choices,
+            "weight": weight,
+            "rate": rate,
+            "reliable": is_reliable,
+            "flexible": is_flexible,
+            "client_relations": has_client_relations,
+            "preferred": is_preferred,
         }
 
         contacts.append(contact)
@@ -147,6 +158,7 @@ def save_to_json(contacts):
 
     with open(filename, "w") as json_file:
         json.dump(contacts, json_file, indent=4)
+
 
 def main():
     current_directory = os.path.dirname(os.path.abspath(__file__))
