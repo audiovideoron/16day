@@ -83,5 +83,22 @@
         "flexible": true,
         "client_relations": true,
         "preferred": true
+    },
+    {
+        "id": "7",
+        "first_name": "Lisa",
+        "last_name": "Rebeck",
+        "email": "lr@rebeck.com",
+        "notes": "reliable, iatsi member",
+        "phone": "8005551212",
+        "position": [
+            "hand"
+        ],
+        "weight": 5,
+        "rate": 77.0,
+        "reliable": true,
+        "flexible": true,
+        "client_relations": true,
+        "preferred": true
     }
 ]

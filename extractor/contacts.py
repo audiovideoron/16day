@@ -58,18 +58,16 @@ def get_position_key(position_name):
             return key
     return None
 
-
 def gather_contact_info(existing_contacts):
     contacts = []
-    available_positions = POSITIONS.copy()
 
     while True:
         first_name = input("Enter first name (or 'q' to quit): ")
-        if first_name.lower() == "q":
+        if first_name.lower() == 'q':
             break
         last_name = input("Enter last name: ")
-        email = input("Enter email: ") 
-        notes = input("Enter notes (optional): ") 
+        email = input("Enter email: ")
+        notes = input("Enter notes (optional): ")
 
         phone = ""
         while True:
@@ -80,32 +78,25 @@ def gather_contact_info(existing_contacts):
 
         position_choices = []
         while True:
-            if not available_positions:
-                print("No more positions available.")
-                break
-
-            print(
-                "Choose position(s) from the following list (enter 'done' to finish)."
-            )
-            for pos, desc in available_positions.items():
+            print("Choose position(s) from the following list (enter 'done' to finish).")
+            for pos, desc in POSITIONS.items():
                 print(f"{pos}: {desc}")
 
-            position_input = input(
-                "Enter one or multiple positions separated by commas: "
-            ).strip()
-            if position_input.lower() == "done":
-                break
+            position_input = input("Enter one or multiple positions separated by commas: ").strip()
+            
+            if position_input.lower() == 'done':
+                if position_choices:
+                    break
+                else:
+                    print("At least one position must be selected.")
+                    continue
 
             position_choices_raw = [x.strip() for x in position_input.split(",")]
-            position_choices = [get_position_key(pos) for pos in position_choices_raw]
+            position_choices_input = [get_position_key(pos) for pos in position_choices_raw]
+            position_choices_input = [pos for pos in position_choices_input if pos]
 
-            # Filter out None values if the position is not found
-            position_choices = [pos for pos in position_choices if pos]
-
-            if position_choices:
-                for pos in position_choices:
-                    del available_positions[pos]
-                break
+            if position_choices_input:
+                position_choices.extend(position_choices_input)
             else:
                 print("Invalid position(s). Please choose from the list.")
 
@@ -140,8 +131,8 @@ def gather_contact_info(existing_contacts):
             "id": generate_unique_id(existing_contacts),
             "first_name": first_name,
             "last_name": last_name,
-            'email': email, 
-            'notes': notes, 
+            'email': email,
+            'notes': notes,
             "phone": phone,
             "position": position_choices,
             "weight": weight,
