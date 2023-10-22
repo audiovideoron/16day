@@ -26,7 +26,7 @@ def generate_labor_event_details():
 
 
 def get_labor_positions_and_counts():
-    labor_positions = ["Technician", "Audio Engineer", "Stage Manager", "Other"]
+    labor_positions = ["A1", "V1", "L1", "Crew Chief", "Hand", "Other"]
     selected_positions = {}
 
     print("\nAvailable labor positions:")
@@ -64,7 +64,6 @@ def get_labor_positions_and_counts():
             print(f"Invalid index {index + 1}. Skipping.")
 
     return selected_positions
-
 
 
 def get_labor_times_for_days(days):

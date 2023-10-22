@@ -98,8 +98,15 @@ A systematic series of questions that the user will be guided through during the
    - If 'Yes', return to the appropriate step based on the user's needs (e.g., if they want to schedule for another day, return to Step 3).
    - If 'No', the system proceeds to finalize the labor scheduling process.
 
+
+DONE:
+
 **9. "Finalize the scheduled labor for '[selected event]' on [dates]?"**
    - This serves as a confirmation step before the actual scheduling action is taken.
+
+
+NEXT:
+
 
 **10. Once labor is finalized, the system would proceed with the selection mechanism based on weight, availability, and other criteria. If there's a tie or any decision to be made, the system would prompt accordingly.**
 
