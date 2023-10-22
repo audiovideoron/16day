@@ -24,6 +24,7 @@ POSITION_WEIGHTS = {
     "hand": 1,
 }
 
+
 def is_valid_phone_number(phone):
     PATTERN_PHONE = r"^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$"
     return re.match(PATTERN_PHONE, phone) is not None
@@ -57,6 +58,7 @@ def get_position_key(pos):
             return key
     print(f"Couldn't find a key for position '{pos}'")  # Debugging line
 
+
 def gather_contact_info(existing_contacts):
     contacts = []
 
@@ -76,14 +78,18 @@ def gather_contact_info(existing_contacts):
     for pos, desc in POSITIONS.items():
         print(f"{pos}: {desc}")
 
-    position_input = input("Enter one or multiple positions separated by commas: ").strip()
-    position_choices_raw = list(map(str.strip, position_input.split(',')))
+    position_input = input(
+        "Enter one or multiple positions separated by commas: "
+    ).strip()
+    position_choices_raw = list(map(str.strip, position_input.split(",")))
     position_choices_input = [get_position_key(pos) for pos in position_choices_raw]
     position_choices = [pos for pos in position_choices_input if pos]
 
     is_reliable = get_yes_no_input(f"Is {first_name} reliable? (y/n): ")
     is_flexible = get_yes_no_input(f"Is {first_name} flexible? (y/n): ")
-    has_client_relations = get_yes_no_input(f"Does {first_name} have good rapport with the client? (y/n): ")
+    has_client_relations = get_yes_no_input(
+        f"Does {first_name} have good rapport with the client? (y/n): "
+    )
     is_preferred = get_yes_no_input(f"Do you prefer {first_name}? (y/n): ")
 
     weight = calculate_weight(
@@ -110,8 +116,8 @@ def gather_contact_info(existing_contacts):
         "id": generate_unique_id(existing_contacts),
         "first_name": first_name,
         "last_name": last_name,
-        'email': email,
-        'notes': notes,
+        "email": email,
+        "notes": notes,
         "phone": phone,
         "position": position_choices,
         "weight": weight,
